@@ -42,15 +42,24 @@ c = "I am junayed"
 # print(s2[0])
 
 '''summary
-1. python reads code line by line
+1. dictionary
 2. string
 3. list
-4. tuple'''
+4. tuple
+5. sets'''
 
-# dict1 = { 'car':'BMW', 'number':127}
-
+# dict1 = { 'car':'BMW', 'number':127, 'number2': '127', 'enlist': [1,3,4]}
+# print(dict1)
+# dict1.pop('car')
 # dict1.update({'wheels': 4}) 
 
+# print(dict1)
+
+tuple1 = ("keys", 2, "cars") #accessible but not mutable
+set1 = {"yo", 1, "hello"}#immutables
+list1 = [1,2,"yo"]
+
+print(tuple1[1])
 # print(dict1)
 
 # string1 = 'My name is\v Zayan'
@@ -62,8 +71,8 @@ c = "I am junayed"
 # print(a+b+c)
 
 
-abc = a+b+c
-print(abc)
+# abc = a+b+c
+# print(abc)
 
 # abc = a*b
 # print(abc)
